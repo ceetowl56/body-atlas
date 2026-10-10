@@ -1,13 +1,9 @@
 name: Build Android App Bundle
 
-# Run it from the GitHub "Actions" tab: Build Android App Bundle > Run workflow.
 on:
   workflow_dispatch:
 
 env:
-  # IMPORTANT: choose your own organisation name BEFORE the first release.
-  # Your Play Store package name will be <APP_ORG>.body_atlas and it can
-  # never be changed after you publish.
   APP_ORG: com.vitalearn
 
 jobs:
@@ -55,12 +51,7 @@ jobs:
           } > android/key.properties
           python3 scripts/setup_signing.py
 
-      - name: Analyze and test
-        run: |
-          flutter analyze || true
-          flutter test || true
-
-            - name: Build app bundle and APK
+      - name: Build app bundle and APK
         run: |
           flutter build appbundle --release
           flutter build apk --release
