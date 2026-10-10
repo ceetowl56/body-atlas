@@ -51,6 +51,17 @@ jobs:
           } > android/key.properties
           python3 scripts/setup_signing.py
 
+      - name: Disable code shrinking
+        run: |
+          if [ -f android/app/build.gradle.kts ]; then
+            sed -i 's/signingConfig = signingConfigs.getByName("release")/signingConfig = signingConfigs.getByName("release")\n            isMinifyEnabled = false\n            isShrinkResources = false/' android/app/build.gradle.kts
+            grep -n "isMinifyEnabled" android/app/build.gradle.kts
+          fi
+          if [ -f android/app/build.gradle ]; then
+            sed -i 's/signingConfig signingConfigs.release/signingConfig signingConfigs.release\n            minifyEnabled false\n            shrinkResources false/' android/app/build.gradle
+            grep -n "minifyEnabled" android/app/build.gradle
+          fi      
+         
       - name: Build app bundle and APK
         run: |
           flutter build appbundle --release
