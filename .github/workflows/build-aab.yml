@@ -8,7 +8,7 @@ env:
   # IMPORTANT: choose your own organisation name BEFORE the first release.
   # Your Play Store package name will be <APP_ORG>.body_atlas and it can
   # never be changed after you publish.
-  APP_ORG: com.yourname
+  APP_ORG: com.vitalearn
 
 jobs:
   build:
