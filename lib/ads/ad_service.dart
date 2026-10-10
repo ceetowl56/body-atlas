@@ -11,7 +11,7 @@ class AdService {
   static final AdService instance = AdService._();
 
   /// Set to false in tests so no ad code runs.
-  static bool enabled = true;
+  static bool enabled = false;
 
   /// Becomes true once ads may be requested (after consent).
   final ValueNotifier<bool> ready = ValueNotifier<bool>(false);
