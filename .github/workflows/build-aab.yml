@@ -60,11 +60,15 @@ jobs:
           flutter analyze || true
           flutter test || true
 
-      - name: Build app bundle
-        run: flutter build appbundle --release
+            - name: Build app bundle and APK
+        run: |
+          flutter build appbundle --release
+          flutter build apk --release
 
       - uses: actions/upload-artifact@v4
         with:
-          name: body-atlas-aab
-          path: build/app/outputs/bundle/release/app-release.aab
+          name: body-atlas-release
+          path: |
+            build/app/outputs/bundle/release/app-release.aab
+            build/app/outputs/flutter-apk/app-release.apk
           retention-days: 30
