@@ -27,7 +27,7 @@ sed -i 's/android:label="body_atlas"/android:label="Body Atlas"/' "$MANIFEST"
 # 3) minSdk 23 (needed by the ads plugin)
 for f in android/app/build.gradle.kts android/app/build.gradle; do
   if [ -f "$f" ]; then
-    sed -i 's/minSdk = flutter.minSdkVersion/minSdk = 23/; s/minSdkVersion flutter.minSdkVersion/minSdkVersion 23/' "$f"
+    sed -i 's/minSdk = flutter.minSdkVersion/minSdk = 24/; s/minSdkVersion flutter.minSdkVersion/minSdkVersion 24/' "$f"
     echo "Checked minSdk in $f"
   fi
 done
