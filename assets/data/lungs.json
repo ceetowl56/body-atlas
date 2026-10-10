@@ -1,0 +1,125 @@
+{
+  "id": "lungs",
+  "name": "Lungs & Breathing",
+  "icon": "air",
+  "summary": "How air gets in and oxygen gets to your blood.",
+  "lessons": [
+    {
+      "title": "The path of air",
+      "body": "Air enters through the nose or mouth, then passes through the pharynx and larynx (voice box) into the trachea (windpipe). The trachea divides into two main bronchi, one for each lung. The bronchi branch into smaller and smaller tubes called bronchioles, which end in tiny air sacs called alveoli.",
+      "keyPoints": [
+        "Nose or mouth, pharynx, larynx, trachea, bronchi, bronchioles, alveoli",
+        "Each lung has its own main bronchus",
+        "Alveoli are the tiny air sacs at the ends of the airways"
+      ]
+    },
+    {
+      "title": "Gas exchange",
+      "body": "Gas exchange happens in the alveoli. Each alveolus is surrounded by tiny blood vessels called capillaries. Oxygen moves from the air in the alveoli into the blood, and carbon dioxide moves from the blood into the alveoli to be breathed out. The walls are very thin, which lets gases pass across easily.",
+      "keyPoints": [
+        "Oxygen goes from the alveoli into the blood",
+        "Carbon dioxide goes from the blood into the alveoli",
+        "Thin walls and many capillaries make exchange efficient"
+      ]
+    },
+    {
+      "title": "How breathing works",
+      "body": "The diaphragm is a dome-shaped muscle under the lungs. When you breathe in, the diaphragm contracts and flattens and the muscles between the ribs lift the rib cage. This enlarges the chest, lowers the pressure inside, and air flows in. Quiet breathing out is mostly passive: the muscles relax and the lungs recoil. The right lung has three lobes and the left lung has two, leaving room for the heart.",
+      "keyPoints": [
+        "The diaphragm is the main breathing muscle",
+        "Breathing in is active; quiet breathing out is mostly passive",
+        "Right lung: 3 lobes. Left lung: 2 lobes"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "What is the windpipe also called?",
+      "options": [
+        "Larynx",
+        "Pharynx",
+        "Trachea",
+        "Bronchus"
+      ],
+      "answerIndex": 2,
+      "explanation": "The trachea is the windpipe."
+    },
+    {
+      "question": "Where does gas exchange take place?",
+      "options": [
+        "Trachea",
+        "Bronchi",
+        "Alveoli",
+        "Diaphragm"
+      ],
+      "answerIndex": 2,
+      "explanation": "Gas exchange happens across the thin walls of the alveoli."
+    },
+    {
+      "question": "Which gas moves from the alveoli into the blood?",
+      "options": [
+        "Carbon dioxide",
+        "Nitrogen",
+        "Oxygen",
+        "Hydrogen"
+      ],
+      "answerIndex": 2,
+      "explanation": "Oxygen moves into the blood; carbon dioxide moves out."
+    },
+    {
+      "question": "Which muscle is the main muscle of breathing?",
+      "options": [
+        "Biceps",
+        "Diaphragm",
+        "Trapezius",
+        "Deltoid"
+      ],
+      "answerIndex": 1,
+      "explanation": "The diaphragm contracts and flattens to draw air in."
+    },
+    {
+      "question": "How many lobes does the right lung have?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Five"
+      ],
+      "answerIndex": 1,
+      "explanation": "The right lung has three lobes; the left has two."
+    },
+    {
+      "question": "Why does the left lung have fewer lobes?",
+      "options": [
+        "It is damaged more often",
+        "To make room for the heart",
+        "It is smaller by age",
+        "It has no bronchus"
+      ],
+      "answerIndex": 1,
+      "explanation": "The heart sits slightly to the left, so the left lung is smaller."
+    },
+    {
+      "question": "What do the bronchi divide into?",
+      "options": [
+        "Alveoli",
+        "Bronchioles",
+        "Capillaries",
+        "Tracheas"
+      ],
+      "answerIndex": 1,
+      "explanation": "The bronchi branch into smaller bronchioles, which end in alveoli."
+    },
+    {
+      "question": "What happens to the diaphragm when you breathe in?",
+      "options": [
+        "It relaxes and rises",
+        "It contracts and flattens",
+        "It stops moving",
+        "It splits in two"
+      ],
+      "answerIndex": 1,
+      "explanation": "Contracting and flattening enlarges the chest cavity so air flows in."
+    }
+  ]
+}

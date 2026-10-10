@@ -1,0 +1,124 @@
+{
+  "id": "skeleton",
+  "name": "Skeleton & Bones",
+  "icon": "accessibility_new",
+  "summary": "The frame that supports and protects your body.",
+  "lessons": [
+    {
+      "title": "Functions of the skeleton",
+      "body": "An adult skeleton has 206 bones. Babies are born with more, roughly 300, because some bones fuse as a child grows. The skeleton supports the body, protects organs (the skull protects the brain and the rib cage protects the heart and lungs), allows movement with muscles, stores minerals such as calcium, and bone marrow makes blood cells.",
+      "keyPoints": [
+        "Adults have 206 bones",
+        "Support, protection, movement, mineral storage, blood cell production",
+        "Babies have more bones that fuse over time"
+      ]
+    },
+    {
+      "title": "Axial and appendicular skeleton",
+      "body": "The axial skeleton forms the central axis of the body: the skull, the vertebral column (spine), and the rib cage with the sternum. The appendicular skeleton includes the limbs and the girdles that attach them: the shoulder girdle and the pelvic girdle.",
+      "keyPoints": [
+        "Axial: skull, spine, ribs, sternum",
+        "Appendicular: arms, legs, shoulder girdle, pelvic girdle"
+      ]
+    },
+    {
+      "title": "The spine and notable bones",
+      "body": "The spine has 33 vertebrae at birth: 7 cervical (neck), 12 thoracic (chest), 5 lumbar (lower back), 5 sacral (fused into the sacrum) and 4 coccygeal (fused into the coccyx). Humans have 12 pairs of ribs. The femur (thigh bone) is the longest and strongest bone, and the stapes in the middle ear is the smallest.",
+      "keyPoints": [
+        "7 cervical, 12 thoracic, 5 lumbar vertebrae",
+        "12 pairs of ribs",
+        "Longest bone: femur. Smallest bone: stapes"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "How many bones does a typical adult skeleton have?",
+      "options": [
+        "106",
+        "206",
+        "306",
+        "406"
+      ],
+      "answerIndex": 1,
+      "explanation": "An adult skeleton has 206 bones."
+    },
+    {
+      "question": "Which is the longest bone in the body?",
+      "options": [
+        "Humerus",
+        "Tibia",
+        "Femur",
+        "Fibula"
+      ],
+      "answerIndex": 2,
+      "explanation": "The femur, or thigh bone, is the longest and strongest."
+    },
+    {
+      "question": "Which bone protects the brain?",
+      "options": [
+        "Sternum",
+        "Skull",
+        "Pelvis",
+        "Scapula"
+      ],
+      "answerIndex": 1,
+      "explanation": "The skull encloses and protects the brain."
+    },
+    {
+      "question": "How many cervical vertebrae are in the neck?",
+      "options": [
+        "5",
+        "7",
+        "12",
+        "4"
+      ],
+      "answerIndex": 1,
+      "explanation": "There are 7 cervical vertebrae."
+    },
+    {
+      "question": "How many pairs of ribs do humans typically have?",
+      "options": [
+        "10",
+        "11",
+        "12",
+        "14"
+      ],
+      "answerIndex": 2,
+      "explanation": "Humans typically have 12 pairs of ribs."
+    },
+    {
+      "question": "Which is the smallest bone in the body?",
+      "options": [
+        "Stapes",
+        "Patella",
+        "Hyoid",
+        "Coccyx"
+      ],
+      "answerIndex": 0,
+      "explanation": "The stapes in the middle ear is the smallest bone."
+    },
+    {
+      "question": "Which part belongs to the axial skeleton?",
+      "options": [
+        "Femur",
+        "Humerus",
+        "Vertebral column",
+        "Pelvic girdle"
+      ],
+      "answerIndex": 2,
+      "explanation": "The vertebral column is part of the axial skeleton."
+    },
+    {
+      "question": "Where are blood cells made?",
+      "options": [
+        "Bone marrow",
+        "Cartilage",
+        "Ligaments",
+        "Tendons"
+      ],
+      "answerIndex": 0,
+      "explanation": "Red bone marrow produces blood cells."
+    }
+  ]
+}

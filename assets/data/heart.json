@@ -1,0 +1,126 @@
+{
+  "id": "heart",
+  "name": "Heart & Circulation",
+  "icon": "favorite",
+  "summary": "The pump that moves blood around your body.",
+  "lessons": [
+    {
+      "title": "Four chambers",
+      "body": "The heart is a muscular organ about the size of a fist. It has four chambers. The two upper chambers, the right and left atria, receive blood. The two lower chambers, the right and left ventricles, pump blood out. A wall called the septum separates the right side from the left side.",
+      "keyPoints": [
+        "Atria receive blood; ventricles pump it out",
+        "The septum divides the right and left sides",
+        "The left ventricle has the thickest wall because it pumps blood to the whole body"
+      ]
+    },
+    {
+      "title": "The four valves",
+      "body": "Valves keep blood flowing in one direction. The tricuspid valve sits between the right atrium and right ventricle. The pulmonary valve lies between the right ventricle and the pulmonary artery. The mitral valve (also called the bicuspid valve) sits between the left atrium and left ventricle. The aortic valve lies between the left ventricle and the aorta.",
+      "keyPoints": [
+        "Tricuspid: right atrium to right ventricle",
+        "Pulmonary: right ventricle to pulmonary artery",
+        "Mitral: left atrium to left ventricle",
+        "Aortic: left ventricle to aorta"
+      ]
+    },
+    {
+      "title": "Path of blood through the heart",
+      "body": "Oxygen-poor blood returns from the body through the vena cava into the right atrium. It passes through the tricuspid valve into the right ventricle, then through the pulmonary valve into the pulmonary artery, which carries it to the lungs. Oxygen-rich blood returns through the pulmonary veins to the left atrium, passes the mitral valve into the left ventricle, and is pumped through the aortic valve into the aorta to the body.",
+      "keyPoints": [
+        "Body to vena cava to right atrium to right ventricle to lungs",
+        "Lungs to pulmonary veins to left atrium to left ventricle to aorta to body",
+        "Arteries carry blood away from the heart; veins carry blood toward it"
+      ]
+    }
+  ],
+  "quiz": [
+    {
+      "question": "How many chambers does the human heart have?",
+      "options": [
+        "Two",
+        "Three",
+        "Four",
+        "Six"
+      ],
+      "answerIndex": 2,
+      "explanation": "The heart has four chambers: two atria and two ventricles."
+    },
+    {
+      "question": "Which chamber pumps oxygen-rich blood to the whole body?",
+      "options": [
+        "Right atrium",
+        "Right ventricle",
+        "Left atrium",
+        "Left ventricle"
+      ],
+      "answerIndex": 3,
+      "explanation": "The left ventricle pumps blood into the aorta and around the body."
+    },
+    {
+      "question": "Which valve lies between the left atrium and left ventricle?",
+      "options": [
+        "Tricuspid valve",
+        "Mitral valve",
+        "Aortic valve",
+        "Pulmonary valve"
+      ],
+      "answerIndex": 1,
+      "explanation": "The mitral (bicuspid) valve sits between the left atrium and left ventricle."
+    },
+    {
+      "question": "Which vessel carries blood from the right ventricle to the lungs?",
+      "options": [
+        "Aorta",
+        "Vena cava",
+        "Pulmonary artery",
+        "Pulmonary vein"
+      ],
+      "answerIndex": 2,
+      "explanation": "The pulmonary artery carries oxygen-poor blood from the right ventricle to the lungs."
+    },
+    {
+      "question": "Why is the left ventricle wall the thickest?",
+      "options": [
+        "It stores extra blood",
+        "It pumps blood to the entire body",
+        "It holds the valves",
+        "It filters the blood"
+      ],
+      "answerIndex": 1,
+      "explanation": "It must generate enough pressure to push blood around the whole body."
+    },
+    {
+      "question": "What is the main job of heart valves?",
+      "options": [
+        "Make blood oxygen-rich",
+        "Keep blood flowing in one direction",
+        "Produce heartbeats",
+        "Store blood"
+      ],
+      "answerIndex": 1,
+      "explanation": "Valves open and close to prevent blood from flowing backward."
+    },
+    {
+      "question": "Which vessels bring oxygen-rich blood from the lungs to the heart?",
+      "options": [
+        "Pulmonary veins",
+        "Pulmonary arteries",
+        "Vena cava",
+        "Coronary arteries"
+      ],
+      "answerIndex": 0,
+      "explanation": "The pulmonary veins carry oxygen-rich blood from the lungs to the left atrium."
+    },
+    {
+      "question": "What separates the right and left sides of the heart?",
+      "options": [
+        "The aorta",
+        "The septum",
+        "The pericardium",
+        "The mitral valve"
+      ],
+      "answerIndex": 1,
+      "explanation": "The septum is the muscular wall between the two sides."
+    }
+  ]
+}

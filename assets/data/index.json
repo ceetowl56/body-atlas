@@ -1,0 +1,22 @@
+{
+  "systems": [
+    {
+      "id": "heart",
+      "name": "Heart & Circulation",
+      "icon": "favorite",
+      "summary": "The pump that moves blood around your body."
+    },
+    {
+      "id": "lungs",
+      "name": "Lungs & Breathing",
+      "icon": "air",
+      "summary": "How air gets in and oxygen gets to your blood."
+    },
+    {
+      "id": "skeleton",
+      "name": "Skeleton & Bones",
+      "icon": "accessibility_new",
+      "summary": "The frame that supports and protects your body."
+    }
+  ]
+}
