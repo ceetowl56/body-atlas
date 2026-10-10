@@ -71,4 +71,4 @@ jobs:
           path: |
             build/app/outputs/bundle/release/app-release.aab
             build/app/outputs/flutter-apk/app-release.apk
-          retention-days: 30
+          retention-days: 300
